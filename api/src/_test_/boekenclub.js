@@ -2,7 +2,7 @@ const supertest = require('supertest')
 const http = require("http")
 const app = require('../index.js')
 const request = supertest(app)
-const Helpers = require('./../utils/helpers.js')
+const Helpers = require('../utils/boek.js')
 
 describe('test /POST endpoint', ()=> {
 
