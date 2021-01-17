@@ -25,3 +25,11 @@ app.post('/testWienert', (req, res) => {
     app.get('/messages', (req,res) => {
         res.send("Hello World")
         })
+        
+
+
+
+
+        //https://docs.docker.com/compose/gettingstarted/
+        
+        
